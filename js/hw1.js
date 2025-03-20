@@ -5,9 +5,8 @@ console.log(age);
 const name = "Kate";
 console.log(name);
 // Створити змінну з іменем isStudent і присвоїти їй значення true або false, залежно від того, чи є студентом. Вивести значення цієї змінної в консоль.
-const isStudent = "student";
-console.log(isStudent);
-console.log(Boolean(1));
+const isStudent = true;
+console.log(Boolean(isStudent));
 // Створити змінну з іменем myString і присвоїти їй рядок з вашої улюбленою цитатою. Вивести цей рядок в консоль.
 const myString = "My way oder highway";
 console.log(myString);
@@ -21,7 +20,7 @@ console.log(myNull);
 // Створити скрипт який виводить спливаюче вікно з запитом на введення імені користувача “Введіть своє ім’я” за допомогою prompt(). 
 // Результат зберегти в змінній userName. Після вивести alert з отриманим ім’ям. Також перевірити за допомогою typeof тип змінної userName при отриманні імен. 
 let userName = prompt('Введіть своє ім’я');
-alert("Kate");
+alert(userName);
 console.log(typeof(userName));
 // Створити скрипт який виводить спливаюче підтвердження за допомогою confirm() з питання “Ви дійсно хочете покинути сторінку?”. 
 // Результат зберегти в змінній userAnswer та вивести в консоль. Перевірити результат при натисканні ОК та CANCEL
